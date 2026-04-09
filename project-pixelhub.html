@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="page-body">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PixelHub — Justine Serdinola</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>body{overflow-y:auto!important;}html.page-body{overflow:auto;}</style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html#home" class="nav-logo">JS<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        <button class="nav-burger" id="navBurger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-content">
+    <section class="project-detail">
+      <div class="container">
+
+        <a href="index.html#projects" class="back-link">← Back to Projects</a>
+
+        <div class="project-hero">
+          <!-- Left: Info -->
+          <div>
+            <p class="section-label">Web Gaming Platform</p>
+            <h1 class="project-hero-title">PixelHub<br><span class="accent">22+ Web Games</span></h1>
+            <p class="project-hero-desc">PixelHub is a browser-based gaming platform featuring 22+ games built entirely with vanilla HTML, CSS, and JavaScript. No game engines, no external libraries — each game is hand-coded from scratch.</p>
+            <p class="project-hero-desc">This project was a deep dive into JavaScript game logic, canvas rendering, collision detection, and browser-based interactivity. Building 22+ different games forced creativity and problem-solving at every step.</p>
+            <a href="index.html#contact" class="btn btn-primary">Discuss This Project</a>
+          </div>
+
+          <!-- Right: Meta -->
+          <div class="project-meta">
+            <div class="meta-row">
+              <label>Tech Stack</label>
+              <div class="tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Canvas API</span>
+              </div>
+            </div>
+            <div class="meta-row">
+              <label>Type</label>
+              <div class="tags"><span class="tag">Web Platform</span><span class="tag">Game Development</span></div>
+            </div>
+            <div class="meta-row">
+              <label>Game Count</label>
+              <div class="tags"><span class="tag">22+ Games</span></div>
+            </div>
+            <div class="meta-row">
+              <label>Status</label>
+              <div class="tags"><span class="tag">Completed</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Screenshots -->
+        <div class="screenshots-section">
+          <p class="section-label">Screenshots</p>
+          <h2 class="section-title">Project Gallery</h2>
+          <div class="screenshot-gallery">
+            <div id="screenshotGallery" data-folder="pixelhub">
+              <div class="screenshot-loading">Loading screenshots...</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Features -->
+        <div class="features-section">
+          <p class="section-label">Features</p>
+          <h2 class="section-title">What PixelHub includes</h2>
+          <div class="features-grid">
+            <div class="feature-item">
+              <div class="feature-icon">🕹️</div>
+              <div class="feature-text">
+                <strong>22+ Playable Games</strong>
+                <p>A wide variety of browser games — from classic arcade-style games to puzzles and action games, all playable in the browser.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🎨</div>
+              <div class="feature-text">
+                <strong>Vanilla JS Only</strong>
+                <p>Zero external libraries or frameworks. Every game is built with pure HTML, CSS, and JavaScript — good for learning and performance.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🖼️</div>
+              <div class="feature-text">
+                <strong>Canvas Rendering</strong>
+                <p>Many games use HTML5 Canvas API for sprite rendering, animations, and real-time game loop logic.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🏠</div>
+              <div class="feature-text">
+                <strong>Game Hub / Launcher</strong>
+                <p>A central platform UI for browsing and launching all available games — organized and accessible.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">📱</div>
+              <div class="feature-text">
+                <strong>Browser-Based</strong>
+                <p>No installation required. Open in any modern browser and play instantly — works on desktop and most touch devices.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🧠</div>
+              <div class="feature-text">
+                <strong>Game Logic Variety</strong>
+                <p>Covers collision detection, scoring systems, timers, difficulty scaling, and different input methods across 22+ titles.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">© 2025 Justine Serdinola. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

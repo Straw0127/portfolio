@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="page-body">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechPlay LMS — Justine Serdinola</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>body{overflow-y:auto!important;}html.page-body{overflow:auto;}</style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html#home" class="nav-logo">JS<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        <button class="nav-burger" id="navBurger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-content">
+    <section class="project-detail">
+      <div class="container">
+
+        <a href="index.html#projects" class="back-link">← Back to Projects</a>
+
+        <div class="project-hero">
+          <!-- Left: Info -->
+          <div>
+            <div class="project-featured-badge" style="margin-bottom:16px;">⭐ Featured Project</div>
+            <p class="section-label">Learning Management System</p>
+            <h1 class="project-hero-title">TechPlay<br><span class="accent">Gamified LMS</span></h1>
+            <p class="project-hero-desc">TechPlay is a full-featured Learning Management System built to make education genuinely engaging. By integrating game mechanics — points, a virtual shop, and achievement badges — students stay motivated while teachers retain full control over content and progress.</p>
+            <p class="project-hero-desc">The system supports separate Teacher and Student roles, each with tailored dashboards and capabilities. Teachers build modules and quizzes; students learn, earn points, and level up.</p>
+            <a href="index.html#contact" class="btn btn-primary">Discuss This Project</a>
+          </div>
+
+          <!-- Right: Meta -->
+          <div class="project-meta">
+            <div class="meta-row">
+              <label>Tech Stack</label>
+              <div class="tags">
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+            <div class="meta-row">
+              <label>Type</label>
+              <div class="tags"><span class="tag">Web Application</span><span class="tag">LMS</span></div>
+            </div>
+            <div class="meta-row">
+              <label>Roles</label>
+              <div class="tags"><span class="tag">Teacher</span><span class="tag">Student</span></div>
+            </div>
+            <div class="meta-row">
+              <label>Status</label>
+              <div class="tags"><span class="tag">Completed</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Screenshots -->
+        <div class="screenshots-section">
+          <p class="section-label">Screenshots</p>
+          <h2 class="section-title">Project Gallery</h2>
+          <div class="screenshot-gallery">
+            <div id="screenshotGallery" data-folder="techplay">
+              <div class="screenshot-loading">Loading screenshots...</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Features -->
+        <div class="features-section">
+          <p class="section-label">Features</p>
+          <h2 class="section-title">What TechPlay includes</h2>
+          <div class="features-grid">
+            <div class="feature-item">
+              <div class="feature-icon">📚</div>
+              <div class="feature-text">
+                <strong>Learning Modules</strong>
+                <p>Structured course content organized into modules. Teachers create, edit, and publish; students access and track progress.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🧠</div>
+              <div class="feature-text">
+                <strong>Quiz System</strong>
+                <p>Multiple-choice quizzes tied to modules with scoring, feedback, and grade tracking per student.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🛒</div>
+              <div class="feature-text">
+                <strong>Virtual Shop</strong>
+                <p>Students earn points by completing lessons and quizzes, then spend them in the in-app shop for rewards and customizations.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🏅</div>
+              <div class="feature-text">
+                <strong>Achievements & Badges</strong>
+                <p>Milestone-based rewards to recognize student accomplishments and encourage continued engagement.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">👩‍🏫</div>
+              <div class="feature-text">
+                <strong>Teacher Dashboard</strong>
+                <p>Full control panel for managing students, modules, quizzes, and monitoring class performance.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">👨‍🎓</div>
+              <div class="feature-text">
+                <strong>Student Dashboard</strong>
+                <p>Personalized view showing enrolled modules, quiz scores, earned points, and available rewards.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🔐</div>
+              <div class="feature-text">
+                <strong>Role-Based Access</strong>
+                <p>Secure authentication with separate permissions for Teacher and Student roles, preventing unauthorized access.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">📊</div>
+              <div class="feature-text">
+                <strong>Progress Tracking</strong>
+                <p>Visual progress indicators for modules and quizzes, helping students and teachers monitor learning outcomes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">© 2025 Justine Serdinola. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

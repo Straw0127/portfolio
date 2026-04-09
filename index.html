@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justine Serdinola — Full-Stack Developer</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo nav-link" data-section="home">JS<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-link" data-section="home">Home</a></li>
+        <li><a href="#about"    class="nav-link" data-section="about">About</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#contact"  class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        <button class="nav-burger" id="navBurger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SCROLL CONTAINER -->
+  <div class="scroll-container" id="scrollContainer">
+
+    <!-- ── SECTION: HOME ── -->
+    <section class="snap-section" id="home" data-nav="home">
+      <div class="section-inner hero-section">
+        <div class="container">
+          <div class="hero-inner">
+            <div class="hero-text">
+              <div class="hero-badge"><span class="dot"></span> Available for opportunities</div>
+              <h1 class="hero-name">Justine<br><span class="accent">Serdinola</span></h1>
+              <p class="hero-tagline">Full-stack developer specializing in PHP/MySQL systems, Python, and modern web experiences.</p>
+              <div class="hero-intro">
+                Currently a <strong>CS/IT student</strong> building real-world systems as I learn.
+                Open to helping fellow IT students — debugging, fixing, or building from scratch.
+                <strong>Paid or freelance basis.</strong> 🤝
+              </div>
+              <div class="hero-ctas">
+                <a href="#projects" class="btn btn-primary nav-link" data-section="projects">View Projects →</a>
+                <a href="#contact"  class="btn btn-outline nav-link"  data-section="contact">Get in Touch</a>
+              </div>
+              <div class="hero-tags">
+                <span class="tag">PHP & MySQL</span>
+                <span class="tag">Python</span>
+                <span class="tag">HTML/CSS/JS</span>
+                <span class="tag">System Design</span>
+                <span class="tag">Java</span>
+              </div>
+              <div class="hero-stats">
+                <div><div class="stat-num">2+</div><div class="stat-label">Major Projects</div></div>
+                <div><div class="stat-num">5+</div><div class="stat-label">Technologies</div></div>
+                <div><div class="stat-num">22+</div><div class="stat-label">Games in PixelHub</div></div>
+              </div>
+            </div>
+            <div class="hero-image-wrap">
+              <div class="profile-frame">
+                <div id="profileContainer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SECTION: ABOUT ── -->
+    <section class="snap-section" id="about" data-nav="about">
+      <div class="section-inner about-section-wrap">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-label">About Me</p>
+            <h2 class="section-title">Crafting Systems.<br>Building Experiences.</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>Hi, I'm Justine Serdinola — an IT/CS student who actually builds things. Not just tutorial projects, but real systems: a gamified LMS, a Python attendance tracker, a 22-game web arcade, and more.</p>
+              <p>My main stack is PHP & MySQL for backend systems, Python for scripts and desktop tools, and HTML/CSS/JS for the frontend. Java is part of my coursework — I've built a CRM with it, but it's not my go-to.</p>
+              <p>Still studying, still building. If you're a fellow IT student who needs help — I'm open to working together on a paid or freelance basis.</p>
+            </div>
+            <div>
+              <p class="section-label">Skills & Stack</p>
+              <div class="skills-grid">
+                <div class="skill-card priority-1">
+                  <div class="skill-icon">🐘</div>
+                  <div class="skill-name">PHP & MySQL</div>
+                  <div class="skill-desc">CRUD systems, session handling, role-based auth, LMS architecture</div>
+                  <div class="skill-level">⭐ Primary Stack</div>
+                </div>
+                <div class="skill-card priority-1">
+                  <div class="skill-icon">🌐</div>
+                  <div class="skill-name">HTML / CSS / JS</div>
+                  <div class="skill-desc">Responsive layouts, DOM manipulation, clean UI without frameworks</div>
+                  <div class="skill-level">⭐ Primary Stack</div>
+                </div>
+                <div class="skill-card priority-2">
+                  <div class="skill-icon">🐍</div>
+                  <div class="skill-name">Python</div>
+                  <div class="skill-desc">Desktop apps with tkinter, automation scripts, attendance systems</div>
+                  <div class="skill-level">🔸 Secondary</div>
+                </div>
+                <div class="skill-card priority-2">
+                  <div class="skill-icon">🎮</div>
+                  <div class="skill-name">Gamification</div>
+                  <div class="skill-desc">Points, virtual shops, badges, quiz modules, role-based dashboards</div>
+                  <div class="skill-level">🔸 Applied</div>
+                </div>
+                <div class="skill-card priority-3">
+                  <div class="skill-icon">☕</div>
+                  <div class="skill-name">Java (Basic)</div>
+                  <div class="skill-desc">Java Swing desktop apps, OOP design, CRM in NetBeans — coursework</div>
+                  <div class="skill-level">🟢 Coursework</div>
+                </div>
+                <div class="skill-card priority-3">
+                  <div class="skill-icon">🔧</div>
+                  <div class="skill-name">System Design</div>
+                  <div class="skill-desc">Debugging, architecture planning, turning requirements into code</div>
+                  <div class="skill-level">🟢 Practical</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="help-strip">
+            <p class="section-label" style="margin-bottom:10px;">How I can help fellow IT students</p>
+            <div class="help-pills">
+              <span class="help-pill">🛠️ Fix/Build PHP Systems</span>
+              <span class="help-pill">🐛 Debug Projects</span>
+              <span class="help-pill">🐍 Python Systems</span>
+              <span class="help-pill">🎨 Improve Frontend</span>
+              <span class="help-pill">🗂️ Organize Logic</span>
+              <span class="help-pill">💬 Paid / Freelance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SECTION: PROJECTS ── -->
+    <section class="snap-section" id="projects" data-nav="projects">
+      <div class="section-inner projects-section-wrap">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-label">My Work</p>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-desc">Systems, apps, and experiments built while studying — from gamified platforms to Python tools.</p>
+          </div>
+          <div class="projects-grid">
+            <div class="project-card featured" onclick="location.href='project-techplay.html'" role="button" tabindex="0">
+              <div class="project-card-body">
+                <div class="project-featured-badge">⭐ Featured Project</div>
+                <div class="project-card-icon">🎮</div>
+                <div class="project-card-title">TechPlay — Gamified LMS</div>
+                <div class="project-card-desc">A full Learning Management System with gamification — quizzes, a virtual shop, achievement badges, and Teacher/Student role dashboards. Built to make learning engaging.</div>
+                <div class="project-card-tags">
+                  <span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">HTML/CSS/JS</span><span class="tag">Gamification</span>
+                </div>
+              </div>
+              <div class="project-card-side"><div class="project-card-arrow">View Project →</div></div>
+            </div>
+            <div class="project-card" onclick="location.href='project-attendance.html'" role="button" tabindex="0">
+              <div class="project-card-icon">📋</div>
+              <div class="project-card-title">Student Attendance System</div>
+              <div class="project-card-desc">Python desktop app replacing manual attendance tracking with a clean GUI, student records, and session management.</div>
+              <div class="project-card-tags"><span class="tag">Python</span><span class="tag">tkinter</span><span class="tag">Desktop</span></div>
+              <div class="project-card-arrow">View Project →</div>
+            </div>
+            <div class="project-card" onclick="location.href='project-pixelhub.html'" role="button" tabindex="0">
+              <div class="project-card-icon">🕹️</div>
+              <div class="project-card-title">PixelHub — 22+ Web Games</div>
+              <div class="project-card-desc">Browser-based gaming platform with 22+ hand-coded games. Pure HTML/CSS/JS — no engines, no libraries.</div>
+              <div class="project-card-tags"><span class="tag">HTML5</span><span class="tag">JavaScript</span><span class="tag">Canvas</span></div>
+              <div class="project-card-arrow">View Project →</div>
+            </div>
+            <div class="project-card" onclick="location.href='project-ecommerce.html'" role="button" tabindex="0">
+              <div class="project-card-icon">🛒</div>
+              <div class="project-card-title">E-Commerce Web</div>
+              <div class="project-card-desc">Full-stack storefront with product catalog, session cart, checkout, and admin panel on a PHP/MySQL backend.</div>
+              <div class="project-card-tags"><span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">E-Commerce</span></div>
+              <div class="project-card-arrow">View Project →</div>
+            </div>
+            <div class="project-card" onclick="location.href='project-crm.html'" role="button" tabindex="0">
+              <div class="project-card-icon">🏢</div>
+              <div class="project-card-title">Java CRM System</div>
+              <div class="project-card-desc">Desktop CRM built with Java Swing in NetBeans. Contact management, data tables, search — OOP coursework project.</div>
+              <div class="project-card-tags"><span class="tag">Java</span><span class="tag">Swing</span><span class="tag">OOP</span></div>
+              <div class="project-card-arrow">View Project →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SECTION: CONTACT ── -->
+    <section class="snap-section" id="contact" data-nav="contact">
+      <div class="section-inner contact-section-wrap">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-label">Get in Touch</p>
+            <h2 class="section-title">Contact Me</h2>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h3 class="contact-sub">Let's work together</h3>
+              <p>Have a project that needs fixing, a system to build, or just want to ask something? Open to freelance and paid collaborations — especially with other IT students.</p>
+              <div class="contact-item">
+                <div class="contact-item-icon">✉️</div>
+                <div>
+                  <div class="contact-item-label">Email</div>
+                  <div class="contact-item-value"><a href="mailto:serdinolajustine06@gmail.com">serdinolajustine06@gmail.com</a></div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon">📍</div>
+                <div><div class="contact-item-label">Location</div><div class="contact-item-value">Philippines</div></div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon">💼</div>
+                <div><div class="contact-item-label">Open to</div><div class="contact-item-value">Freelance, Paid Help, Internship</div></div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon">🎓</div>
+                <div><div class="contact-item-label">Status</div><div class="contact-item-value">IT/CS Student — available for project work</div></div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <form id="contactForm" novalidate>
+                <div class="form-row">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="Juan dela Cruz" required />
+                </div>
+                <div class="form-row">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="juan@example.com" required />
+                </div>
+                <div class="form-row">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" placeholder="Need help with my PHP project..." />
+                </div>
+                <div class="form-row">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Tell me about your project, what's broken, what you need built..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+                <p class="form-note">I'll get back to you as soon as possible 👋</p>
+              </form>
+            </div>
+          </div>
+          <div class="inline-footer">
+            <p>© 2025 Justine Serdinola. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /scroll-container -->
+
+  <!-- Side progress dots -->
+  <nav class="section-dots" id="sectionDots" aria-label="Section navigation">
+    <button class="dot-btn active" data-target="home"     aria-label="Home"></button>
+    <button class="dot-btn"        data-target="about"    aria-label="About"></button>
+    <button class="dot-btn"        data-target="projects" aria-label="Projects"></button>
+    <button class="dot-btn"        data-target="contact"  aria-label="Contact"></button>
+  </nav>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

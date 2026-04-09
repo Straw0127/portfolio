@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Justine Serdinola</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">JS<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        <button class="nav-burger" id="navBurger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-content">
+
+    <div class="page-header">
+      <div class="container">
+        <p class="section-label">Get in Touch</p>
+        <h1>Contact Me</h1>
+      </div>
+    </div>
+
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Info -->
+          <div class="contact-info fade-in">
+            <h2 class="section-title" style="font-size:1.8rem;margin-bottom:16px;">Let's work together</h2>
+            <p>Have a project that needs fixing, a system to build, or just want to ask something? I'm a student open to freelance and paid collaborations — especially with other IT students who need help with their projects.</p>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">✉️</div>
+              <div>
+                <div class="contact-item-label">Email</div>
+                <div class="contact-item-value">
+                  <a href="mailto:serdinolajustine06@gmail.com">serdinolajustine06@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <div>
+                <div class="contact-item-label">Location</div>
+                <div class="contact-item-value">Philippines</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">💼</div>
+              <div>
+                <div class="contact-item-label">Open to</div>
+                <div class="contact-item-value">Freelance, Paid Help, Internship</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">🎓</div>
+              <div>
+                <div class="contact-item-label">Status</div>
+                <div class="contact-item-value">IT/CS Student — available for project work</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="contact-form fade-in">
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Juan dela Cruz" required />
+              </div>
+              <div class="form-row">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="juan@example.com" required />
+              </div>
+              <div class="form-row">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Need help with my PHP project..." />
+              </div>
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell me about your project, what's broken, what you need built..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+              <p class="form-note">I'll get back to you as soon as possible 👋</p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">© 2025 Justine Serdinola. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

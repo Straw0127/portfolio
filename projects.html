@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Justine Serdinola</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">JS<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        <button class="nav-burger" id="navBurger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-content">
+
+    <div class="page-header">
+      <div class="container">
+        <p class="section-label">My Work</p>
+        <h1>Projects</h1>
+      </div>
+    </div>
+
+    <section class="projects-section">
+      <div class="container">
+        <p class="section-desc">Systems, apps, and experiments built while studying and learning — from gamified platforms to Python tools.</p>
+
+        <div class="projects-grid">
+
+          <!-- 1. TechPlay — FEATURED -->
+          <div class="project-card featured" onclick="location.href='project-techplay.html'" role="button" tabindex="0">
+            <div class="project-card-body">
+              <div class="project-featured-badge">⭐ Featured Project</div>
+              <div class="project-card-icon">🎮</div>
+              <div class="project-card-title">TechPlay — Gamified LMS</div>
+              <div class="project-card-desc">A full Learning Management System with gamification mechanics — quizzes, a virtual shop, achievement badges, and separate Teacher/Student role dashboards. Built to make learning actually engaging instead of just another form-based school system.</div>
+              <div class="project-card-tags">
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">HTML/CSS/JS</span>
+                <span class="tag">Gamification</span>
+                <span class="tag">Role-Based Auth</span>
+              </div>
+            </div>
+            <div class="project-card-side">
+              <div class="project-card-arrow">View Project →</div>
+            </div>
+          </div>
+
+          <!-- 2. Student Attendance System (Python) -->
+          <div class="project-card" onclick="location.href='project-attendance.html'" role="button" tabindex="0">
+            <div class="project-card-icon">📋</div>
+            <div class="project-card-title">Student Attendance System</div>
+            <div class="project-card-desc">A Python desktop application for tracking student attendance. Built to replace manual paper-based processes with a clean GUI interface, student records management, and session tracking.</div>
+            <div class="project-card-tags">
+              <span class="tag">Python</span>
+              <span class="tag">tkinter</span>
+              <span class="tag">Desktop App</span>
+            </div>
+            <div class="project-card-arrow">View Project →</div>
+          </div>
+
+          <!-- 3. PixelHub (22+ games) -->
+          <div class="project-card" onclick="location.href='project-pixelhub.html'" role="button" tabindex="0">
+            <div class="project-card-icon">🕹️</div>
+            <div class="project-card-title">PixelHub — 22+ Web Games</div>
+            <div class="project-card-desc">A web-based gaming platform featuring 22+ browser games, all built with vanilla HTML, CSS, and JavaScript. No frameworks, no libraries — just pure frontend logic and creative game design.</div>
+            <div class="project-card-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Canvas</span>
+            </div>
+            <div class="project-card-arrow">View Project →</div>
+          </div>
+
+          <!-- 4. E-Commerce Web -->
+          <div class="project-card" onclick="location.href='project-ecommerce.html'" role="button" tabindex="0">
+            <div class="project-card-icon">🛒</div>
+            <div class="project-card-title">E-Commerce Web</div>
+            <div class="project-card-desc">A web-based e-commerce platform with product listings, shopping cart functionality, and a checkout flow. Designed as a functional storefront with a PHP/MySQL backend.</div>
+            <div class="project-card-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">HTML/CSS/JS</span>
+              <span class="tag">E-Commerce</span>
+            </div>
+            <div class="project-card-arrow">View Project →</div>
+          </div>
+
+          <!-- 5. Java CRM -->
+          <div class="project-card" onclick="location.href='project-crm.html'" role="button" tabindex="0">
+            <div class="project-card-icon">🏢</div>
+            <div class="project-card-title">Java CRM System</div>
+            <div class="project-card-desc">A desktop Customer Relationship Management application built with Java Swing in NetBeans. Features contact records management, search, data tables, and a clean GUI — built as a coursework OOP project.</div>
+            <div class="project-card-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Swing</span>
+              <span class="tag">NetBeans</span>
+              <span class="tag">OOP</span>
+            </div>
+            <div class="project-card-arrow">View Project →</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">© 2025 Justine Serdinola. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
